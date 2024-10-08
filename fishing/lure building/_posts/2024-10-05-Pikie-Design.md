@@ -11,6 +11,9 @@ As an avid saltwater fisherman, I'm always searching for ways to improve my game
 
 A bit of history: The Pikie lure, originally designed by the Creek Chub Bait Company in the early 1900s for freshwater fishing, became a favorite among striped bass anglers along the U.S. East Coast by the mid-20th century. Its lifelike baitfish profile, durable construction, and versatile wobbling action made it particularly effective at mimicking prey like bunker and herring, turning it into a go-to lure for surfcasters targeting big stripers.
 
+![Pikie Lure Prototype](assets/img/pikie-lure/Original-pikie-striper.jpg)
+*Striped Bass that fell for irresistable wobble of the Pikie - Image from [On The Water](https://onthewater.com/choose-the-right-striper-plug)*
+
 Traditionally, the Pikie was made from buoyant wood like basswood and shaped on a lathe. For my version, I'll be using 3D printing for prototyping and a CNC router for final production. Since these manufacturing methods differ from the original, I’ll need to design the lure body in two halves and join them during post-processing. This approach offers advantages: it allows me to experiment with internal cavities for creating air pockets to boost buoyancy or adding weights to fine-tune the lure’s action.
 
 In this post, I'll outline my design requirements and the considerations I’ve made with Design for Manufacturing (DFM) in mind. I'll walk you through my design process, share the lessons learned along the way, and discuss the next steps as I move toward prototyping my remix of this iconic lure.
@@ -74,3 +77,9 @@ To explain how this can be done, I will need to walk through the CAD modeling of
 ## Conclusion
 <!-- encourage comments for feedback/questions
 invite engagement - ask if anyone has remixed this or similar -->
+
+## References
+1. [Plug Building 2023: The Anti-Pike](https://www.thefisherman.com/article/plug-building-2023-the-anti-pike/)
+2. [How to Build a Danny style Plug](https://www.stripers247.com/media/categories/how-to-build-a-danny-style-plug.7/)
+3. [Tips for 3D Printing Press-Fit Parts](https://makezine.com/article/digital-fabrication/3d-printing-workshop/tips-3d-printing-press-fit-parts/)
+4. [Complete 3D Printed Fishing Lure Design Course - Designing the Lure Body](https://youtu.be/7JGIUfx0y8I?si=sHJDN0qpQfNqf2Qc)
