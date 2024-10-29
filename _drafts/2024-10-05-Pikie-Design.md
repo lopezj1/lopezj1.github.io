@@ -1,6 +1,6 @@
 ---
 title: "Remixing the Pikie Lure - Part 1: The Design Phase"
-date: 2024-10-05 00:00:00 -04:00
+date: 2024-10-28 00:00:00 -04:00
 tags: [3D Printing, CNC Machining, Shapeoko, Ender3, Fusion360]
 description: "Reimagining a Classic Lure with Desktop Maker Tools"
 math: true
