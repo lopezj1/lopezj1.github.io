@@ -46,13 +46,13 @@ jobs:
           bundler-cache: true
 
       - name: Build site
-        run: JEKYLL_ENV=production bundle exec jekyll build -d "_site${{ steps.pages.outputs.base_path }}"
-        #run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+        #run: JEKYLL_ENV=production bundle exec jekyll build -d "_site${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
-          BLOG_URL: ${{ secrets.BLOG_URL }}
-          BLOG_EMAIL: ${{ secrets.BLOG_EMAIL }}
-          BLOG_LINKEDIN_URL: ${{ secrets.BLOG_LINKEDIN_URL }}
+          #BLOG_URL: ${{ secrets.BLOG_URL }}
+          #BLOG_EMAIL: ${{ secrets.BLOG_EMAIL }}
+          #BLOG_LINKEDIN_URL: ${{ secrets.BLOG_LINKEDIN_URL }}
           BLOG_GOOGLE_ANALYTICS_ID: ${{ secrets.BLOG_GOOGLE_ANALYTICS_ID }}
 
       - name: Test site
